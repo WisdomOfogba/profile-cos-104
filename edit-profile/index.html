@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile page | COS 102 ASSIGNGMENT</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="profile-form">
+        <div>
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" placeholder="John" required/>
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" placeholder="Doe" required/>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="name@yourmail.com" required/>
+        </div>
+        <div>
+          <label for="bio">Bio(e.g I love eating Pizza)</label>
+          <textarea name="bio" id="bio" rows="10" maxlength="200" placeholder="I love Pizza" required></textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+      <div id="alert"></div>
+    </main>
+    <script type="module" src="../index.js"></script>
+  </body>
+</html>
