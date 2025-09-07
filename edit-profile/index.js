@@ -44,6 +44,6 @@ profileForm.addEventListener("submit", (e) => {
         alert.classList.remove("error")
         alert.classList.add("success")
         alert.classList.add("visible")
-        window.history.back();
+        window.location.href = "../index.html";
     }, 3000);
 })
