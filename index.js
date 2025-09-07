@@ -1,44 +1,16 @@
-import { validateForm } from "./modules/formValidator.js";
-import { getDetails, saveDetails} from "./modules/profileManager.js";
+import { getDetails } from "./modules/profileManager.js";
+
+const fnames = document.querySelectorAll(".fname");
+const lname = document.querySelector(".lname");
+const email = document.querySelector(".email");
+const bio = document.querySelector(".bio");
 
 const profileDetails = getDetails();
 
-const profileForm = document.getElementById("profile-form");
-const fname = document.getElementById("fname");
-const lname = document.getElementById("lname");
-const email = document.getElementById("email");
-const bio = document.getElementById("bio");
-const alert = document.getElementById("alert");
-const submit = document.getElementById("submit");
 
-fname.value = profileDetails.fname;
-lname.value = profileDetails.lname;
-email.value = profileDetails.email;
-bio.value = profileDetails.bio;
-
-
-profileForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = {
-        fname: formData.get("fname"),
-        lname: formData.get("lname"),
-        email: formData.get("email"),
-        bio: formData.get("bio")
-    }
-    const validatedForm = validateForm(data);
-
-    if (!validatedForm.success) {
-        alert.innerHTML = validatedForm.message;
-        alert.classList.remove("success")
-        alert.classList.add("error");
-        alert.classList.add("visible")
-        return;
-    }
- 
-    saveDetails(data);
-    alert.innerHTML = "Submited Form Succesfully!"
-    alert.classList.remove("error")
-    alert.classList.add("success")
-    alert.classList.add("visible")
-})
+for (const fname of fnames) {
+  fname.innerHTML = profileDetails.fname;
+}
+lname.innerHTML = profileDetails.lname;
+email.innerHTML = profileDetails.email;
+bio.innerHTML = profileDetails.bio;

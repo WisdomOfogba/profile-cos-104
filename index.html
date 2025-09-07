@@ -8,7 +8,45 @@
   </head>
   <body>
     <main>
-      <a href="./edit-profile/index.html">Edit Profile</a>
+      <div class="profile-card">
+        <div class="profile-header">
+          <div>
+            <img src="https://tapback.co/api/avatar.webp" alt="User Avatar" />
+          </div>
+          <h2 class="fname"></h2>
+          <p class="bio"></p>
+        </div>
+        <div class="profile-info">
+          <h3>Profile Info</h3>
+          <ul>
+            <li>
+              <div>
+                <p>First Name</p>
+                <p class="fname detail"></p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Last Name</p>
+                <p class="lname detail"></p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Email</p>
+                <p class="email detail"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="profile-edit">
+          <a href="./edit-profile/index.html">Edit Profile</a>
+        </div>
+      </div>
+      <div class="hero">
+        <img src="./images/Hero.png" alt="Hero Image" />
+      </div>
     </main>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
