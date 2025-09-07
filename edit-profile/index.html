@@ -11,26 +11,60 @@
       <div class="profile-card">
         <h1>Edit Profile</h1>
         <form id="profile-form">
-        <div>
-          <label for="fname">First Name</label>
-          <input type="text" name="fname" id="fname" placeholder="John" required/>
-        </div>
-        <div>
-          <label for="lname">Last Name</label>
-          <input type="text" name="lname" id="lname" placeholder="Doe" required/>
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="name@yourmail.com" required/>
-        </div>
-        <div>
-          <label for="bio">Bio(e.g I love eating Pizza)</label>
-          <textarea name="bio" id="bio" rows="10" maxlength="200" placeholder="I love Pizza" required></textarea>
-        </div>
-        <button id="submit" type="submit">Submit</button>
-        <button class="cancel" type="button" onclick="window.history.back()">Cancel</button>
-      </form>
-      <div id="alert"></div>
+          <div>
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@yourmail.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="bio">Bio(e.g I love eating Pizza)</label>
+            <textarea
+              name="bio"
+              id="bio"
+              rows="10"
+              maxlength="200"
+              placeholder="I love Pizza"
+              required
+            ></textarea>
+          </div>
+
+          <button id="submit" type="submit">Submit</button>
+          <div>
+            <button
+              class="cancel"
+              type="button"
+              onclick="window.history.back()"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+        <div id="alert"></div>
       </div>
       <div class="hero">
         <img src="../images/Hero.png" alt="Hero Image" />

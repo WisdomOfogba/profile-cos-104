@@ -77,8 +77,8 @@ main {
 }
 
 .cancel {
-  align-self: center;
-  margin-top: 3rem;
+  text-align: center;
+  margin-top: 1rem;
   color: #007bff; /* A nice blue for links */
   font-weight: 600;
   font-size: 1rem;
@@ -87,6 +87,9 @@ main {
 
 .profile-header {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
