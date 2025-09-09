@@ -2,19 +2,19 @@ export const validateForm = (formData) => {
     if (!formData.email.includes("@")) {
         return {
             success: false,
-            message: "Email does not include '@' sign"
+            message: "Email must contain '@' sign"
         };
     };
     if (!formData.email.includes(".")) {
         return {
             success: false,
-            message: "Email does not include '.' sign before the domain"
+            message: "Email must contain a '.' in the domain"
         }
     }
-    if (!formData.bio.length > 200) {
+    if (formData.bio.length > 200) {
         return {
             success: false,
-            message: "Bio should not be more than 200 words."
+            message: "Bio should not be more than 200 characters."
         }
     }
 
