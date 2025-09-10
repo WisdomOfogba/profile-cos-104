@@ -43,11 +43,12 @@ This project is a simple web-based profile form application that allows users to
 ---
 - ## Contributions
 
-- HTML - Jackson 
-- CSS -  Wahab Destiny
-- Modules - Sanni Shazily
-- Index.js (main script) - Ofogba Wisdom
-- Index.js (Edit page script) - Muheez Akanbi
-- Project Management and UI Design - Oluwasemilore Odusola
-- Documentation - Kazeem Abdulsobur
-- Presenter - Sanni Shazily 
+- HTML - **Vincent Jackson**
+- CSS -  **Wahab Destiny**
+- Modules - **Sanni Shazily**
+- Index.js (main script) - **Muheez Akanbi**
+- Index.js (Edit page script) - **Wisdom Ofogba**
+- Project Management - **Oluwasemilore Odusola**
+- UI Design - **Oluwasemilore Odusola**
+- Documentation - **Kazeem Abdulsobur**
+- Presenter - **Sanni Shazily**
