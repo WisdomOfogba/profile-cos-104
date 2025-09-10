@@ -47,6 +47,7 @@ This project is a simple web-based profile form application that allows users to
 - CSS -  Wahab Destiny
 - Modules - Sanni Shazily
 - Index.js (main script) - Ofogba Wisdom
+- Index.js (Edit page script) - Muheez Akanbi
 - Project Management and UI Design - Oluwasemilore Odusola
 - Documentation - Kazeem Abdulsobur
 - Presenter - Sanni Shazily 
