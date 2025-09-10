@@ -1,4 +1,4 @@
-# Profile Form Project
+# Profiler
 
 This project is a simple web-based profile form application that allows users to view and update their profile details. It features form validation, data persistence, and user feedback through alert messages.
 
@@ -40,3 +40,13 @@ This project is a simple web-based profile form application that allows users to
 - Data persistence is handled locally (e.g., using `localStorage`).
 - The alert messages are dynamically shown/hidden based on form submission results.
 
+---
+- ## Contributions
+
+- HTML - Jackson 
+- CSS -  Wahab Destiny
+- Modules - Sanni Shazily
+- Index.js (main script) - Ofogba Wisdom
+- Project Management and UI Design - Oluwasemilore Odusola
+- Documentation - Kazeem Abdulsobur
+- Presenter - Sanni Shazily 
