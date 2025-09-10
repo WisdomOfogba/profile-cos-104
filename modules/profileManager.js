@@ -11,7 +11,7 @@ export const getDetails = () => {
     return {
         fname: "John",
         lname: "Doe",
-        email: "test@testmail.com",
+        email: "johndoe@example.com",
         bio: "I love Pizza!"
     }
  }
