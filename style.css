@@ -190,7 +190,7 @@ main {
 }
 
 .profile-info ul li > div {
-  padding: 6px 16px;
+  padding: 8px 12px;
   background-color: #606060;
   color: white;
   width: 100%;
@@ -265,6 +265,7 @@ button#submit:hover {
   border-radius: 8px;
   font-weight: 600;
   width: 100%;
+  max-width: 400px;
   text-align: center;
   visibility: hidden; /* Start hidden and show with JavaScript */
   opacity: 0;
@@ -300,10 +301,7 @@ button#submit:hover {
     max-width: 325px;
   }
 
-  .profile-card > form {
-    max-width: 325px;
-  }
-  .profile-edit {
+  .profile-card > form, .profile-edit, #alert {
     max-width: 325px;
   }
 }
